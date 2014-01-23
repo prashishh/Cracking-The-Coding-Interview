@@ -45,6 +45,26 @@ public class LinkedList {
 		current.next = temp;
 	}
 
+	// get node from a specific value
+	public int getNodeValue( int pos ) {
+		Node current = head;
+		int count = 1;
+
+		if ( pos < 0 )
+			return 0;
+
+		while ( count < pos ) {
+			if ( current.next == null )
+				return 0;
+
+			current = current.next;
+			count++;
+		}
+
+		return current.data;
+	}
+
+	// print all the nodes
 	public void printAllNodes() {
 		Node current = head;
 
@@ -66,6 +86,10 @@ public class LinkedList {
 
     	l.addNodeAtMid(2,31);
     	l.printAllNodes();
+
+    	System.out.println("\n");
+    	System.out.println(l.getNodeValue(6));
+
 
     } 
 }

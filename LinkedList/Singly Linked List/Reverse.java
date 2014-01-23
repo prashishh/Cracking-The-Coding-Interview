@@ -56,10 +56,11 @@ public class Reverse {
 			// change prev to head node
 			prev = head;
 
-			//
+			// move forward to next node
 			head = nextNode;
 		}
 
+		// change head to new head
 		head = prev;
 
 	}

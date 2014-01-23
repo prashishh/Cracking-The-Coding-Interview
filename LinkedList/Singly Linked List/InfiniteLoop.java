@@ -34,7 +34,7 @@ public class InfiniteLoop {
 				if( hare == tortoise )
 					return true;
 
-			} catch (NullPointerException ne) {
+			} catch ( NullPointerException ne ) {
 				return false;
 			}
 		}
@@ -50,8 +50,8 @@ public class InfiniteLoop {
 
 		InfiniteLoop findme = new InfiniteLoop();
 
-		System.out.println(findme.loopExists(sampleList));
+		System.out.println( findme.loopExists( sampleList ) );
 		findme.createLoop( sampleList );
-		System.out.println(findme.loopExists(sampleList));
+		System.out.println( findme.loopExists( sampleList ) );
 	}
 }
