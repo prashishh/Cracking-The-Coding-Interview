@@ -7,11 +7,12 @@
 
 public class Stack {
 	Node top;
-	int size;
+	int size = 0;
 
 	public int pop() {
 		int temp = top.data;
 		top = top.next;
+		size--;	
 		return temp;
 	}
 
@@ -20,6 +21,7 @@ public class Stack {
 		temp.data = d;
 		temp.next = top;
 		top = temp;
+		size++;
 	}
 
 	public int stackSize() {
