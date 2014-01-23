@@ -1,0 +1,1 @@
+Write an algorithm such that if an element in an MXN matrix is zero, its entire row and column is set to 0.

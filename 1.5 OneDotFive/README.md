@@ -1,0 +1,1 @@
+Implement a method to perform basic string compression using the counts of repeated characters. For example: the string aabccccaa would become a2b1c4a2. If the compressed string would not become smaller than the original string, then return original string.
