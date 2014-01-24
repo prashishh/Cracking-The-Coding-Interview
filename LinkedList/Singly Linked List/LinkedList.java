@@ -64,6 +64,30 @@ public class LinkedList {
 		return current.data;
 	}
 
+	// delete node in middle
+	public void deleteNodePos( int pos ) {
+		Node current = head;
+		int count = 0;
+
+		if ( pos == 0 ) {
+			head = head.next;
+			return;
+		}
+
+		while ( current != null ) {
+			if( pos == count+1 ) 
+				deleteNodes(current, current.next);
+
+			current = current.next;
+			count++;
+		}
+
+	}
+
+	private void deleteNodes( Node node1, Node node2 ) {
+		node1.next = node2.next;
+	}
+
 	// print all the nodes
 	public void printAllNodes() {
 		Node current = head;
