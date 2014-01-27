@@ -44,3 +44,28 @@ _Started on 4th Jan, 14_
 
 [Linked List practice questions.](https://github.com/prashishh/Cracking-The-Coding-Interview/tree/master/LinkedList/Singly%20Linked%20List)
 
+####List of interview questions that I plan to do in future:
+
+__Linked List:__
+
+Given a linked list like a1-a2-a3-a4-b1-b2-b3-b4. Convert it into a1-b1-a2-b2-a3-b3-a4-b4.
+
+__Trees and Graph:__
+Program to convert a binary search tree into doubly linked list.
+
+__Dynamic Programming:__
+
+Given a MXN matrix. To find the number of ways to reach the mth row and nth column cell from 0,0 cell. Find the same if some of the cells are marked as not reachable.
+First implemented using recursion then through dynamic programming.
+
+__Misc:__
+
+
+Given a sentence. Find all the characters which are repeated more than 1 time and print them in lexicographical order.
+
+Program to sort m sorted arrays.
+
+Given two sorted arrays. Find the median of the combined array.
+
+
+
